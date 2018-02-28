@@ -85,7 +85,7 @@ public class Anagram {
 				output = output+temporary[i]+" ";
 			}
 		}
-		return output;
+		return input+":\n"+output;
 	}
 	
 	//Sets the words that exist in the English Language
